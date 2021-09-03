@@ -1,0 +1,382 @@
+*{
+
+
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+
+font-family: lgante;
+src:url(zector.ttf);
+
+
+}
+
+html{
+
+	scroll-behavior: smooth;
+
+	/*propiedad sencilla pero no permite modificar la aceleracion, en javascript si*/
+}
+
+
+
+
+
+
+
+.cont{
+
+
+width: 100%;
+height: 4000px;
+	
+}
+
+
+
+
+
+.cont .plano1{
+
+	width: 100%;
+	height: 1080px;
+	background-image:url(plano1.jpg);
+	background-size:cover;
+	background-position: top;
+	color: white;
+
+}
+
+
+
+
+
+/*NAV*/
+
+.cont .plano1 nav{
+	
+	display: inline-block;
+	padding-top: 2.5%;
+	position: fixed;
+
+	transition: 0.6s;
+	width: 100%;
+	height: 15%;
+
+}
+
+
+.cont .plano1 nav .logo{
+
+font-family: lgante;
+font-size: 5em;
+	
+	float: left;
+	text-decoration: none;
+	color: white;
+	margin-left: 5%;
+
+	transition: 0.6s;
+
+
+
+}
+
+
+.cont .plano1 nav ul{
+
+
+	margin-left: 60%;
+
+
+}
+
+
+
+
+
+.cont .plano1 nav ul li{
+
+
+	display:inline-block;
+	
+}
+
+
+.cont .plano1 nav ul li a{
+
+font-family: lgante;
+font-size: 2em;
+color: white; 
+text-decoration: none;
+margin-right:20px;
+
+
+}
+
+
+.cont .plano1 nav ul b{
+
+font-family: lgante;
+font-size: 2em;
+
+}
+
+
+ nav.sticky {
+
+background-color: rgba(0,0,0,0.7);
+
+
+
+
+}
+nav.sticky ul {
+
+
+	color:yellow;
+}
+
+
+
+
+/*NOSOTROS*/
+
+.cont #nosotros {
+
+
+
+width: 100%;
+height: 15%;
+
+
+
+}
+
+
+
+
+
+.cont #nosotros .texto{
+
+
+width: 40%;
+height: 70%;
+float: left;
+font-family: lgante;
+color: black;
+margin-top: 2%;
+margin-left: 5%;
+
+
+}
+
+
+
+ .cont #nosotros .titulo{
+
+color: brown;
+margin-bottom: 6%;
+font-size: 3em;
+transition: 0.6s;
+font-family: lgante;
+
+}
+
+
+.cont #nosotros .foto{
+
+
+width: 40%;
+height: 70%;
+background-image:url(nosotros.jpg);
+float: left;
+margin-left: 10%;
+margin-top: 2%;
+
+}
+
+
+/*LA CARTA*/
+
+
+.cont #carta{
+
+	width: 100%;
+	height: 20%;
+
+}
+
+
+.cont #carta .titulo{
+
+
+color: brown;
+font-family: lgante;
+font-size: 3em;
+
+text-align: center;
+margin-bottom: 2%;
+
+}
+
+
+.cont #carta .menu{
+
+width: 90%;
+height: 80%;
+background-image: url(carta.jpg);
+background-size:cover;
+margin:0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+.cont #carta .menu .ball{
+
+
+
+width: 20%;
+height: 50%;
+
+margin-left: 2%;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+
+font-family: lgante;
+color: black;
+
+transition: 0.6s;
+background:rgba(252,252,252,0.5);
+flex-
+
+}
+
+.cont #carta .menu .ball:hover{
+
+	background:rgba(63,37,37,0.7);
+	color:white;
+}
+
+
+/*RESERVA*/
+
+
+
+.cont #reserva{
+
+
+
+
+	width: 100%;
+	height: 20%;
+	margin-top: 5%;
+
+
+}
+
+
+.cont #reserva .titulo{
+
+font-family: lgante;
+font-size: 3em;
+color:brown;
+margin-left: 5%;
+margin-bottom: 5%;
+text-align: center;
+}
+
+
+.cont #reserva input{
+
+	width: 20%;
+	height: 5%;
+	
+	padding-left: 10px;
+	
+	border:0.5px solid black;
+	margin-bottom: 1%;
+	margin-left: 10%;
+	background-color: rgba(	5, 0, 0,0.1);
+
+}
+
+ #submit{
+
+
+margin-left: 10%;
+width: 5%;
+height: 5%;
+
+}
+
+.reservatxt{
+
+width: 50%; 
+height: 20%;
+margin: 0 auto;
+margin-top: 5%;
+justify-content: center;
+font-family: lgante;
+color: black;
+
+}
+
+
+/*CONTACTO*/
+
+.contactoleft{
+
+
+	float: left;
+}
+
+
+
+
+.cont #contacto .titulo{
+
+	font-family: lgante;
+	font-size: 3em;
+	color:brown;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+
+
+.contactoleft{
+
+width: 30%;	
+margin-top: 2%;
+margin-left: 5%;
+font-family: lgante;
+color: black;
+
+}
+
+
+.contactorigth{
+
+	float: left;
+	margin-left: 8%;
+
+}
+
+footer{
+
+	font-family: lgante;
+	background-color: black;
+	color: white;
+	
+	text-align: center;
+}
